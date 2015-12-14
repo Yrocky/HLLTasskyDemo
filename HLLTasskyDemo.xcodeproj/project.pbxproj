@@ -14,6 +14,15 @@
 		D7C0C87B1C1C2D96003AB438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C0C87A1C1C2D96003AB438 /* Assets.xcassets */; };
 		D7C0C87E1C1C2D96003AB438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C0C87C1C1C2D96003AB438 /* LaunchScreen.storyboard */; };
 		D7C0C8891C1C2D96003AB438 /* HLLTasskyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C8881C1C2D96003AB438 /* HLLTasskyDemoUITests.m */; };
+		D7C0C89B1C1C2DBC003AB438 /* HLLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C8941C1C2DBC003AB438 /* HLLCell.m */; };
+		D7C0C89C1C1C2DBC003AB438 /* HLLContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C8961C1C2DBC003AB438 /* HLLContainerViewController.m */; };
+		D7C0C89D1C1C2DBC003AB438 /* HLLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C8981C1C2DBC003AB438 /* HLLDetailViewController.m */; };
+		D7C0C89E1C1C2DBC003AB438 /* HLLHamburgerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C89A1C1C2DBC003AB438 /* HLLHamburgerView.m */; };
+		D7C0C8A91C1C30D1003AB438 /* HLLChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C8A01C1C30D1003AB438 /* HLLChartView.m */; };
+		D7C0C8AA1C1C30D1003AB438 /* HLLChartViewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C8A21C1C30D1003AB438 /* HLLChartViewTwo.m */; };
+		D7C0C8AB1C1C30D1003AB438 /* HLLLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C8A41C1C30D1003AB438 /* HLLLineView.m */; };
+		D7C0C8AC1C1C30D1003AB438 /* HLLPeicView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C8A61C1C30D1003AB438 /* HLLPeicView.m */; };
+		D7C0C8AD1C1C30D1003AB438 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C8A81C1C30D1003AB438 /* UIColor+HexColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,24 @@
 		D7C0C8841C1C2D96003AB438 /* HLLTasskyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLLTasskyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C0C8881C1C2D96003AB438 /* HLLTasskyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLTasskyDemoUITests.m; sourceTree = "<group>"; };
 		D7C0C88A1C1C2D96003AB438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C0C8931C1C2DBC003AB438 /* HLLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLCell.h; sourceTree = "<group>"; };
+		D7C0C8941C1C2DBC003AB438 /* HLLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLCell.m; sourceTree = "<group>"; };
+		D7C0C8951C1C2DBC003AB438 /* HLLContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLContainerViewController.h; sourceTree = "<group>"; };
+		D7C0C8961C1C2DBC003AB438 /* HLLContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLContainerViewController.m; sourceTree = "<group>"; };
+		D7C0C8971C1C2DBC003AB438 /* HLLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLDetailViewController.h; sourceTree = "<group>"; };
+		D7C0C8981C1C2DBC003AB438 /* HLLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLDetailViewController.m; sourceTree = "<group>"; };
+		D7C0C8991C1C2DBC003AB438 /* HLLHamburgerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLHamburgerView.h; sourceTree = "<group>"; };
+		D7C0C89A1C1C2DBC003AB438 /* HLLHamburgerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLHamburgerView.m; sourceTree = "<group>"; };
+		D7C0C89F1C1C30D1003AB438 /* HLLChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLLChartView.h; path = chartView/HLLChartView.h; sourceTree = "<group>"; };
+		D7C0C8A01C1C30D1003AB438 /* HLLChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLLChartView.m; path = chartView/HLLChartView.m; sourceTree = "<group>"; };
+		D7C0C8A11C1C30D1003AB438 /* HLLChartViewTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLLChartViewTwo.h; path = chartView/HLLChartViewTwo.h; sourceTree = "<group>"; };
+		D7C0C8A21C1C30D1003AB438 /* HLLChartViewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLLChartViewTwo.m; path = chartView/HLLChartViewTwo.m; sourceTree = "<group>"; };
+		D7C0C8A31C1C30D1003AB438 /* HLLLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLLLineView.h; path = chartView/HLLLineView.h; sourceTree = "<group>"; };
+		D7C0C8A41C1C30D1003AB438 /* HLLLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLLLineView.m; path = chartView/HLLLineView.m; sourceTree = "<group>"; };
+		D7C0C8A51C1C30D1003AB438 /* HLLPeicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLLPeicView.h; path = chartView/HLLPeicView.h; sourceTree = "<group>"; };
+		D7C0C8A61C1C30D1003AB438 /* HLLPeicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLLPeicView.m; path = chartView/HLLPeicView.m; sourceTree = "<group>"; };
+		D7C0C8A71C1C30D1003AB438 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexColor.h"; path = "chartView/UIColor+HexColor.h"; sourceTree = "<group>"; };
+		D7C0C8A81C1C30D1003AB438 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexColor.m"; path = "chartView/UIColor+HexColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +112,15 @@
 				D7C0C8721C1C2D96003AB438 /* AppDelegate.m */,
 				D7C0C8741C1C2D96003AB438 /* ViewController.h */,
 				D7C0C8751C1C2D96003AB438 /* ViewController.m */,
+				D7C0C8931C1C2DBC003AB438 /* HLLCell.h */,
+				D7C0C8941C1C2DBC003AB438 /* HLLCell.m */,
+				D7C0C8951C1C2DBC003AB438 /* HLLContainerViewController.h */,
+				D7C0C8961C1C2DBC003AB438 /* HLLContainerViewController.m */,
+				D7C0C8971C1C2DBC003AB438 /* HLLDetailViewController.h */,
+				D7C0C8981C1C2DBC003AB438 /* HLLDetailViewController.m */,
+				D7C0C8991C1C2DBC003AB438 /* HLLHamburgerView.h */,
+				D7C0C89A1C1C2DBC003AB438 /* HLLHamburgerView.m */,
+				D7C0C8AE1C1C30DA003AB438 /* chartView */,
 				D7C0C8771C1C2D96003AB438 /* Main.storyboard */,
 				D7C0C87A1C1C2D96003AB438 /* Assets.xcassets */,
 				D7C0C87C1C1C2D96003AB438 /* LaunchScreen.storyboard */,
@@ -109,6 +145,23 @@
 				D7C0C88A1C1C2D96003AB438 /* Info.plist */,
 			);
 			path = HLLTasskyDemoUITests;
+			sourceTree = "<group>";
+		};
+		D7C0C8AE1C1C30DA003AB438 /* chartView */ = {
+			isa = PBXGroup;
+			children = (
+				D7C0C89F1C1C30D1003AB438 /* HLLChartView.h */,
+				D7C0C8A01C1C30D1003AB438 /* HLLChartView.m */,
+				D7C0C8A11C1C30D1003AB438 /* HLLChartViewTwo.h */,
+				D7C0C8A21C1C30D1003AB438 /* HLLChartViewTwo.m */,
+				D7C0C8A31C1C30D1003AB438 /* HLLLineView.h */,
+				D7C0C8A41C1C30D1003AB438 /* HLLLineView.m */,
+				D7C0C8A51C1C30D1003AB438 /* HLLPeicView.h */,
+				D7C0C8A61C1C30D1003AB438 /* HLLPeicView.m */,
+				D7C0C8A71C1C30D1003AB438 /* UIColor+HexColor.h */,
+				D7C0C8A81C1C30D1003AB438 /* UIColor+HexColor.m */,
+			);
+			name = chartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,9 +264,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C0C89D1C1C2DBC003AB438 /* HLLDetailViewController.m in Sources */,
+				D7C0C8AC1C1C30D1003AB438 /* HLLPeicView.m in Sources */,
+				D7C0C8AA1C1C30D1003AB438 /* HLLChartViewTwo.m in Sources */,
+				D7C0C89E1C1C2DBC003AB438 /* HLLHamburgerView.m in Sources */,
+				D7C0C89B1C1C2DBC003AB438 /* HLLCell.m in Sources */,
+				D7C0C8AD1C1C30D1003AB438 /* UIColor+HexColor.m in Sources */,
 				D7C0C8761C1C2D96003AB438 /* ViewController.m in Sources */,
 				D7C0C8731C1C2D96003AB438 /* AppDelegate.m in Sources */,
+				D7C0C89C1C1C2DBC003AB438 /* HLLContainerViewController.m in Sources */,
+				D7C0C8A91C1C30D1003AB438 /* HLLChartView.m in Sources */,
 				D7C0C8701C1C2D96003AB438 /* main.m in Sources */,
+				D7C0C8AB1C1C30D1003AB438 /* HLLLineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
